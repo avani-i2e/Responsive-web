@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-light p-3 shadow-sm fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="home.html">
+                    <img src="https://th.bing.com/th/id/OIP.7avoMUDbNsdTDW8qjouBCAHaD1?w=303&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Logo" style="height: 40px;">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="signed_deals.html" class="nav-link">Signed Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="deal_information.html" class="nav-link active">Deal Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dashboards.html" class="nav-link">Dashboards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacts.html" class="nav-link">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="all_news.html" class="nav-link">All News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="marketplace.html" class="nav-link">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="admin.html" class="nav-link">Admin</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary ml-3" data-toggle="modal" data-target="#submitIdeaModal">Submit Your Ideas!</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5 pt-5">
+        <div class="mt-4">
+            <h2 class="text-secondary">Deal Information</h2>
+            <ul class="nav nav-tabs mt-3" id="dealInfoTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="funding-tab" data-toggle="tab" href="#funding" role="tab" aria-controls="funding" aria-selected="true">WRDM Funding Sources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="process-tab" data-toggle="tab" href="#process" role="tab" aria-controls="process" aria-selected="false">Deal Process</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="governance-tab" data-toggle="tab" href="#governance" role="tab" aria-controls="governance" aria-selected="false">Governance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="areas-tab" data-toggle="tab" href="#areas" role="tab" aria-controls="areas" aria-selected="false">Areas of Interest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="what-to-do-tab" data-toggle="tab" href="#what-to-do" role="tab" aria-controls="what-to-do" aria-selected="false">What to do if...</a>
+                </li>
+            </ul>
+            <div class="tab-content p-3 border border-top-0" id="dealInfoTabContent">
+                <!-- Funding Sources Tab Content -->
+                <div class="tab-pane fade show active" id="funding" role="tabpanel" aria-labelledby="funding-tab">
+                    <h5>Funding Sources Content</h5>
+                    <p>Content for WRDM Funding Sources goes here.</p>
+                </div>
+                
+                <!-- Deal Process Tab Content -->
+                <div class="tab-pane fade" id="process" role="tabpanel" aria-labelledby="process-tab">
+                    <h5>Deal Process Content</h5>
+                    <p>Content for Deal Process goes here.</p>
+                </div>
+                
+                <!-- Governance Tab Content -->
+                <div class="tab-pane fade" id="governance" role="tabpanel" aria-labelledby="governance-tab">
+                    <h5>Governance Content</h5>
+                    <p>Content for Governance goes here.</p>
+                </div>
+                
+                <!-- Areas of Interest Tab Content -->
+                <div class="tab-pane fade" id="areas" role="tabpanel" aria-labelledby="areas-tab">
+                    <h5>Areas of Interest Content</h5>
+                    <p>Content for Areas of Interest goes here.</p>
+                </div>
+                
+                <!-- What to do if... Tab Content -->
+                <div class="tab-pane fade" id="what-to-do" role="tabpanel" aria-labelledby="what-to-do-tab">
+                    <h5>What to do if...</h5>
+                    <p>Select the topic below to see what you should do in each scenario</p>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 d-flex">
+                            <div class="card mb-3 w-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">You are at a meeting and find a potential WRD external opportunity of interest</h5>
+                                    <p class="card-text">Brief description or instructions can go here.</p>
+                                    <a href="#" class="btn btn-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                            <div class="card mb-3 w-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">You want to know WRD's partnering areas of interest</h5>
+                                    <p class="card-text">Brief description or instructions can go here.</p>
+                                    <a href="#" class="btn btn-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                            <div class="card mb-3 w-100">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">You get approached by a non-employee with a potential WRD external opportunity of interest</h5>
+                                    <p class="card-text">Brief description or instructions can go here.</p>
+                                    <a href="#" class="btn btn-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-muted py-3 fixed-bottom">
+        &copy; 2024 Company Name. All rights reserved.
+    </footer>
+
+    <!-- Modal for Submit Your Ideas -->
+    <div class="modal fade" id="submitIdeaModal" tabindex="-1" aria-labelledby="submitIdeaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="submitIdeaModalLabel">Submit Your Idea</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="ideaForm">
+                        <div class="form-group">
+                            <label for="ideaTitle">Title</label>
+                            <input type="text" class="form-control" id="ideaTitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ideaDescription">Description</label>
+                            <textarea class="form-control" id="ideaDescription" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
